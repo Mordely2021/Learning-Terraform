@@ -19,7 +19,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
-  region                   = "us-east-1"
-  profile                  = "Mordely2021"
+  region                   = var.region
+  profile                  = var.profile
 
 }
