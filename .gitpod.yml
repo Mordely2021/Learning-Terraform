@@ -1,0 +1,6 @@
+image:
+  file: Dockerfile
+
+tasks:
+  - init: echo "Welcome to your Gitpod workspace with Terraform!"
+    command: terraform --version
